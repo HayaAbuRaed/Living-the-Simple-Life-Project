@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body{
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+h1,h2,h3{
+  color: #143774;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.container{
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container-flex{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/* ------------------------------------- */
+
+header{
+  text-align: center;
+  padding: 4em 0;
+  background-color: #f8f8f8;
+  margin-bottom: 3em;
+}
+
+.title h1{
+  font-size: 2rem;
+  margin: 0;
+}
+
+.title h2, nav ul{
+  color: #1792D2;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  letter-spacing: .14em;
+  margin: 0;
+}
+
+nav ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 0;
+  margin: 1em 0;
+}
+
+nav li{
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+nav li:last-child{
+  margin-bottom: 0;
+}
+
+nav a{
+  text-decoration: none;
+  color: #707070;
+  padding: 0.25em 0;
+}
+
+nav a:hover, nav a:focus{
+  color: #1792D2;
+}
+
+.current-page{
+  border-bottom: 0.1em solid #707070;
+}
+.current-page:hover, .current-page:focus{
+  color: #707070;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.article-top{
+  border-bottom: #707070 1px solid;
+  padding-bottom: 2em;
+  margin-bottom: 0.5em;
+}
+
+.article-img{
+  margin-top: 1.5em;
+}
+
+main{
+  margin-bottom: 2em;
+}
+
+@media (min-width: 787px) {
+  .container-flex{
+    flex-direction: row;
+  }
+
+  main{
+    width: 70%;
+  }
+
+  aside{
+    width: 25%;
+    min-width: 200px;
+    margin-left: 1em;
+  }
+
+  .article-top{
+    margin-bottom: 2em;
+  }
+
+  .article-img{
+    margin-top: 0;
+  }
+}
+
+.article-rest{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+.art-rest-main{
+  order: 2;
+}
+
+.art-rest-2{
+  order: 1;
+}
+
+article h2{
+  font-size: 1.5rem;
+}
+
+.article-body{
+  color: #707070;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 150%;
+}
+.x{
+  font-weight: bold;
+}
+.article-body a{
+  color: #1792D2;
+}
+.article-body a:hover, .article-body a:focus{
+  color: #143774;
+}
+
+
+.cont-reading{
+  text-decoration: none;
+  color: #1792D2;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2.8px;
+}
+.cont-reading:hover, .cont-reading:focus{
+  text-decoration: underline;
+  color: #143774;
+}
+
+.article-info, .cont-reading{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.875rem;
+}
+
+.article-info{
+  color: #707070;
+  margin: 2em 0;
+}
+
+
+@media (min-width: 787px){
+  .article-rest{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .art-rest-main{
+    width: 68%;
+  }
+
+  .art-rest-2{
+    width: 30%;
+  }
+
+  .article-img{
+    width:100%;
+    min-height: 200px;
+    object-fit: cover;
+  }
+
+  .diff-img{
+    object-position: left;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+
+
+.widget-body,.widget-title{
+  color: #143774;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.widget-title{
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3.6px;
+  font-size: 1rem;
+}
+
+.widget{
+  border: 20px solid #efefef;
+  margin-bottom: 2em;
+  padding: 1em;
+}
+
+.widget h3{
+  margin: 1em 0;
+  /* border-bottom: #efefef solid;*/
+  padding-bottom: 1.em;
+  font-size: 1.2rem; 
+}
+
+.widget-recent-post{
+  /* display: flex; */
+  /* flex-direction: column; */
+  border-bottom: #707070 solid 1px;
+  margin-bottom: 1em;
+}
+
+.widget-recent-post:last-child{
+  border: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 787px){
+  .sidebar-img{
+    width: 100%;
+    max-height: 87px;
+    object-fit: cover;
+    
+  }
+  .sidebar-img-diff{
+    object-position: bottom;
+  }
+  .img-top{
+    max-height: 133px;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
+
+footer{
+  background-color: #143774;
+  color: white;
+  text-align: center;
+  padding: 3em;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 3em;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.about-me-article{
+  font-family: 'Ubuntu', sans-serif;
+  color: #707070;
+  line-height: 2em;
+}
+
+.img-full{
+  max-height: 300px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2em;
+}
+
+.about-me-article h3{
+  color: #1792D2;
+}
