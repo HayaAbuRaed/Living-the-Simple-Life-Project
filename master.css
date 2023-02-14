@@ -53,6 +53,10 @@ header{
   margin: 0;
 }
 
+.title h2{
+  margin-bottom: 1em;
+}
+
 nav ul{
   list-style-type: none;
   display: flex;
@@ -124,6 +128,10 @@ main{
 
   .article-img{
     margin-top: 0;
+  }
+
+  .title h2{
+    margin-bottom: 0;
   }
 }
 
