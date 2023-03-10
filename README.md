@@ -6,7 +6,7 @@ This project was built in order to improve my skills in HTML and CSS, but more i
 <br/><br/>
 
 ## 📄 Some Credits
-For this task, I followed the folloeing Youtube video 👉🏻 <a href="https://www.youtube.com/watch?v=srvUrASNj0s" target="_blank">Introduction To Responsive Web Design - HTML & CSS Tutorial</a> 👈🏻 provided by freeCodeCamp.org 
+For this task, I followed the following Youtube video 👉🏻 <a href="https://www.youtube.com/watch?v=srvUrASNj0s" target="_blank">Introduction To Responsive Web Design - HTML & CSS Tutorial</a> 👈🏻 provided by freeCodeCamp.org 
 <br/>
 
 I also followed this <a href="https://xd.adobe.com/spec/75d448ea-569a-4b7e-721b-9bbd3b2b97b9-03e5/grid" target="_blank"> adobe XD sketch </a>
