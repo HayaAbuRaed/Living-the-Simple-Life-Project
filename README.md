@@ -8,7 +8,8 @@ This project was built in order to improve my skills in HTML and CSS, but more i
 ## 📄 Some Credits
 For this task, I followed the folloeing Youtube video 👉🏻 <a href="https://www.youtube.com/watch?v=srvUrASNj0s" target="_blank">Introduction To Responsive Web Design - HTML & CSS Tutorial</a> 👈🏻 provided by freeCodeCamp.org 
 <br/>
-I also followed <a href="https://xd.adobe.com/spec/75d448ea-569a-4b7e-721b-9bbd3b2b97b9-03e5/grid" target="_blank"> this XD adobe sketch </a>
+
+I also followed this <a href="https://xd.adobe.com/spec/75d448ea-569a-4b7e-721b-9bbd3b2b97b9-03e5/grid" target="_blank"> adobe XD sketch </a>
 <br/><br/>
 
 ## 🚀 Usage
@@ -17,6 +18,5 @@ I also followed <a href="https://xd.adobe.com/spec/75d448ea-569a-4b7e-721b-9bbd3
 - Downlad the files a and open it with any text editor, vs code, atom, etc... 
 
 ## 📝 License
-
 Copyright © 2023 [Haya AbuRaed](https://github.com/HayaAbuRaed).<br />
 This project is [MIT](https://github.com/HayaAbuRaed/Living-the-Simple-Life-Project/blob/master/LICENSE) licensed.
