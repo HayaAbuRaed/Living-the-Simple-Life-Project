@@ -14,7 +14,7 @@ I also followed this <a href="https://xd.adobe.com/spec/75d448ea-569a-4b7e-721b-
 
 ## 🚀 Usage
 - A Netlify link is provided a the top of this READEME file
-- This project is deployed using :octocat: GitHub pages
+- This project is deployed using :octocat: GitHub pages, click <a href="https://hayaaburaed.github.io/Living-the-Simple-Life-Project/"> here </a> or click the link in the sidebar 
 - Downlad the files a and open it with any text editor, vs code, atom, etc... 
 
 ## 📝 License
