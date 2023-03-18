@@ -1,0 +1,27 @@
+ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 0;
+  margin: 1em 0;
+}
+
+li{
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+
+li:last-child{
+  margin-bottom: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #707070;
+  padding: 0.25em 0;
+}
+
+a:hover, nav a:focus{
+  color: #1792D2;
+}

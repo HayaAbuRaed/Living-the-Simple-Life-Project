@@ -1,0 +1,45 @@
+.article-top{
+  border-bottom: #707070 1px solid;
+  padding-bottom: 2em;
+  margin-bottom: 0.5em;
+}
+
+.article-img{
+  margin-top: 1.5em;
+  margin-top: 0;
+}
+
+.article-body{
+  color: #707070;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 150%;
+}
+
+main{
+  margin-bottom: 2em;
+}
+
+@media (min-width: 787px) {
+  .container-flex{
+    flex-direction: row;
+  }
+
+  main{
+    width: 70%;
+  }
+
+  .article-top{
+    margin-bottom: 2em;
+  }
+}
+
+.article-info
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.875rem;
+}
+
+.article-info{
+  color: #707070;
+  margin: 2em 0;
+}

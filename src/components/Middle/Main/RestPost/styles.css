@@ -1,0 +1,40 @@
+.article-rest{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+
+/* .cont-reading{
+  text-decoration: none;
+  color: #1792D2;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2.8px;
+}
+.cont-reading:hover, .cont-reading:focus{
+  text-decoration: underline;
+  color: #143774;
+} */
+
+
+
+@media (min-width: 787px){
+  .article-rest{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .art-rest-main{
+    width: 68%;
+  }
+
+  .art-rest-2{
+    width: 30%;
+  }
+
+  .article-img{
+    width:100%;
+    min-height: 200px;
+    object-fit: cover;
+  }
+}
